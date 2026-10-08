@@ -11,17 +11,17 @@ import Cookies from "js-cookie";
 // export const Route = createFileRoute("/login")({
 //   head: () => ({
 //     meta: [
-//       { title: "Sign in — F&M Bank" },
+//       { title: "Sign in — Southern Trust Bank" },
 //       {
 //         name: "description",
 //         content:
-//           "Sign in to your F&M Bank account to view balances, move money, and track your savings goals.",
+//           "Sign in to your Southern Trust Bank account to view balances, move money, and track your savings goals.",
 //       },
-//       { property: "og:title", content: "Sign in — F&M Bank" },
+//       { property: "og:title", content: "Sign in — Southern Trust Bank" },
 //       {
 //         property: "og:description",
 //         content:
-//           "Sign in to your F&M Bank account to view balances, move money, and track your savings goals.",
+//           "Sign in to your Southern Trust Bank account to view balances, move money, and track your savings goals.",
 //       },
 //       { property: "og:type", content: "website" },
 //       { name: "twitter:card", content: "summary_large_image" },
@@ -137,9 +137,9 @@ export default function LoginPage() {
                 <header className="flex h-16 items-center justify-between">
                     <Link href="/" className="flex items-center gap-2.5">
                         <span className="grid size-8 place-items-center rounded-lg bg-primary text-[13px] font-extrabold text-primary-foreground">
-                            F&M
+                            Southern Trust
                         </span>
-                        <span className="text-[15px] font-semibold tracking-tight">F&M Bank</span>
+                        <span className="text-[15px] font-semibold tracking-tight">Southern Trust Bank</span>
                     </Link>
                     <span className="rounded-full border border-border bg-card/60 px-3 py-1.5 font-mono text-[11px] text-muted-foreground backdrop-blur-md">
                         Member FDIC · Equal Housing Lender
@@ -202,7 +202,7 @@ export default function LoginPage() {
                                             Secure sign-in
                                         </div>
                                         <h2 className="mt-2 text-2xl font-bold tracking-tight">
-                                            Sign in to F&M Bank
+                                            Sign in to Southern Trust Bank
                                         </h2>
 
                                         <form className="mt-6 space-y-4" onSubmit={handleSubmit} noValidate>
@@ -289,7 +289,7 @@ export default function LoginPage() {
                                             </button>
 
                                             <p className="text-center text-xs text-muted-foreground">
-                                                New to F&M Bank?{" "}
+                                                New to Southern Trust Bank?{" "}
                                                 <Link
                                                     href="/signup"
                                                     className="font-medium text-primary transition-colors hover:text-accent"
@@ -303,7 +303,7 @@ export default function LoginPage() {
                             </div>
 
                             {/* <p className="mt-5 text-center text-xs leading-relaxed text-muted-foreground">
-                                F&M Bank is a fictional brand created for this prototype. Sign-in is illustrative
+                                Southern Trust Bank is a fictional brand created for this prototype. Sign-in is illustrative
                                 only. Equal Housing Lender.
                             </p> */}
                         </div>

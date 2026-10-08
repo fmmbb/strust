@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "f&mbank",
+  title: "Southern Trustbank",
   description: "Banking that earns your trust, every single day.",
 };
 

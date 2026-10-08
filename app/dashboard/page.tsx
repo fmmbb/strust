@@ -6,17 +6,17 @@ import { useEffect,useState } from "react";
 // export const Route = createFileRoute("/dashboard")({
 //   head: () => ({
 //     meta: [
-//       { title: "Dashboard — F&M Bank" },
+//       { title: "Dashboard — Southern Trust Bank" },
 //       {
 //         name: "description",
 //         content:
-//           "Your F&M Bank dashboard: balances, recent activity, savings goals, and quick actions in one clear view.",
+//           "Your Southern Trust Bank dashboard: balances, recent activity, savings goals, and quick actions in one clear view.",
 //       },
-//       { property: "og:title", content: "Dashboard — F&M Bank" },
+//       { property: "og:title", content: "Dashboard — Southern Trust Bank" },
 //       {
 //         property: "og:description",
 //         content:
-//           "Your F&M Bank dashboard: balances, recent activity, savings goals, and quick actions in one clear view.",
+//           "Your Southern Trust Bank dashboard: balances, recent activity, savings goals, and quick actions in one clear view.",
 //       },
 //       { property: "og:type", content: "website" },
 //       { name: "twitter:card", content: "summary_large_image" },
@@ -50,9 +50,9 @@ function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-2.5">
           <span className="grid size-8 place-items-center rounded-lg bg-primary text-[13px] font-extrabold text-primary-foreground">
-            F&M
+            Southern Trust
           </span>
-          <span className="text-[15px] font-semibold tracking-tight">F&M Bank</span>
+          <span className="text-[15px] font-semibold tracking-tight">Southern Trust Bank</span>
         </Link>
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <a href="#overview" className="text-foreground font-medium">
@@ -299,7 +299,7 @@ export default function DashboardPage() {
           <Activity />
           <Goals />
           {/* <p className="mt-10 text-center text-xs leading-relaxed text-muted-foreground">
-            F&M Bank is a fictional brand created for this prototype. Balances, transactions, and
+            Southern Trust Bank is a fictional brand created for this prototype. Balances, transactions, and
             insights are sample data. Equal Housing Lender.
           </p> */}
         </main>

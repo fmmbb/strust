@@ -77,9 +77,9 @@
 //     meta: [
 //       { charSet: "utf-8" },
 //       { name: "viewport", content: "width=device-width, initial-scale=1" },
-//       { title: "F&M Bank" },
+//       { title: "Southern Trust Bank" },
 //       { name: "description", content: "Banking that earns your trust, every single day." },
-//       { property: "og:title", content: "F&M Bank" },
+//       { property: "og:title", content: "Southern Trust Bank" },
 //       { property: "og:description", content: "Banking that earns your trust, every single day." },
 //       { property: "og:type", content: "website" },
 //       { name: "twitter:card", content: "summary_large_image" },

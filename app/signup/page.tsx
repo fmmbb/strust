@@ -13,17 +13,17 @@ import { auth, db } from "../component/firebase";
 // export const Route = createFileRoute("/signup")({
 //   head: () => ({
 //     meta: [
-//       { title: "Open an account — F&M Bank" },
+//       { title: "Open an account — Southern Trust Bank" },
 //       {
 //         name: "description",
 //         content:
-//           "Open your F&M Bank account in minutes. No monthly fees, no minimums, no fine print surprises.",
+//           "Open your Southern Trust Bank account in minutes. No monthly fees, no minimums, no fine print surprises.",
 //       },
-//       { property: "og:title", content: "Open an account — F&M Bank" },
+//       { property: "og:title", content: "Open an account — Southern Trust Bank" },
 //       {
 //         property: "og:description",
 //         content:
-//           "Open your F&M Bank account in minutes. No monthly fees, no minimums, no fine print surprises.",
+//           "Open your Southern Trust Bank account in minutes. No monthly fees, no minimums, no fine print surprises.",
 //       },
 //       { property: "og:type", content: "website" },
 //       { name: "twitter:card", content: "summary_large_image" },
@@ -168,9 +168,9 @@ async function handleSubmit(e: React.FormEvent) {
                 <header className="flex h-16 items-center justify-between">
                     <Link href="/" className="flex items-center gap-2.5">
                         <span className="grid size-8 place-items-center rounded-lg bg-primary text-[13px] font-extrabold text-primary-foreground">
-                            F&M
+                            Southern Trust
                         </span>
-                        <span className="text-[15px] font-semibold tracking-tight">F&M Bank</span>
+                        <span className="text-[15px] font-semibold tracking-tight">Southern Trust Bank</span>
                     </Link>
                     <span className="rounded-full border border-border bg-card/60 px-3 py-1.5 font-mono text-[11px] text-muted-foreground backdrop-blur-md">
                         Member FDIC · Equal Housing Lender
@@ -186,7 +186,7 @@ async function handleSubmit(e: React.FormEvent) {
                             Five minutes now. Zero fees forever.
                         </h1>
                         <p className="mt-5 max-w-[40ch] text-pretty leading-relaxed text-muted-foreground animate-[rise_0.6s_var(--ease)_0.1s_both]">
-                            Join F&M Bank and get a high-yield savings account, a fee-free checking account, and
+                            Join Southern Trust Bank and get a high-yield savings account, a fee-free checking account, and
                             human support around the clock.
                         </p>
                         <ul className="mt-8 space-y-4 animate-[rise_0.6s_var(--ease)_0.2s_both]">
@@ -375,7 +375,7 @@ async function handleSubmit(e: React.FormEvent) {
                             </div>
 
                             {/* <p className="mt-5 text-center text-xs leading-relaxed text-muted-foreground">
-                                F&M Bank is a fictional brand created for this prototype. Rates shown are
+                                Southern Trust Bank is a fictional brand created for this prototype. Rates shown are
                                 illustrative and may change. Equal Housing Lender.
                             </p> */}
                         </div>

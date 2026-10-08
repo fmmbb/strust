@@ -2,13 +2,13 @@
 // export const Route = createFileRoute("/")({
 //   head: () => ({
 //     meta: [
-//       { title: "F&M Bank — Banking that earns your trust" },
+//       { title: "Southern Trust Bank — Banking that earns your trust" },
 //       {
 //         name: "description",
 //         content:
-//           "F&M Bank pairs the security of a traditional institution with the clarity of a modern app. Open an account in minutes.",
+//           "Southern Trust Bank pairs the security of a traditional institution with the clarity of a modern app. Open an account in minutes.",
 //       },
-//       { property: "og:title", content: "F&M Bank — Banking that earns your trust" },
+//       { property: "og:title", content: "Southern Trust Bank — Banking that earns your trust" },
 //       {
 //         property: "og:description",
 //         content:
@@ -29,9 +29,9 @@ function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <a href="/" className="flex items-center gap-2.5">
           <span className="grid size-8 place-items-center rounded-lg bg-primary text-[13px] font-extrabold text-primary-foreground">
-            F&M
+            Southern Trust
           </span>
-          <span className="text-[15px] font-semibold tracking-tight">F&M Bank</span>
+          <span className="text-[15px] font-semibold tracking-tight">Southern Trust Bank</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
           <a href="#products" className="transition-colors hover:text-foreground">
@@ -76,7 +76,7 @@ function Hero() {
             Banking that earns your trust, every single day.
           </h1>
           <p className="mt-6 max-w-[46ch] text-pretty text-lg leading-relaxed text-muted-foreground animate-[rise_0.6s_var(--ease)_0.1s_both]">
-            F&M Bank pairs the security of a traditional institution with the clarity of a modern
+            Southern Trust Bank pairs the security of a traditional institution with the clarity of a modern
             app. Open an account in minutes and see exactly where your money works.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3 animate-[rise_0.6s_var(--ease)_0.2s_both]">
@@ -380,9 +380,9 @@ function Footer() {
           <div className="md:col-span-4">
             <div className="flex items-center gap-2.5">
               <span className="grid size-8 place-items-center rounded-lg bg-primary text-[13px] font-extrabold text-primary-foreground">
-                F&M
+                Southern Trust
               </span>
-              <span className="text-[15px] font-semibold tracking-tight">F&M Bank</span>
+              <span className="text-[15px] font-semibold tracking-tight">Southern Trust Bank</span>
             </div>
             <p className="mt-4 max-w-[30ch] text-sm leading-relaxed text-muted-foreground">
               A modern retail bank built for how you actually live, save, and spend.
@@ -414,7 +414,7 @@ function Footer() {
         </div>
         <div className="mt-10 border-t border-border pt-6 text-xs leading-relaxed text-muted-foreground">
           {/* <p>
-            F&M Bank is a fictional brand created for this prototype. Deposits are held at an
+            Southern Trust Bank is a fictional brand created for this prototype. Deposits are held at an
             FDIC-insured institution, subject to applicable limits. Rates are illustrative and may
             change. Equal Housing Lender.
           </p> */}
