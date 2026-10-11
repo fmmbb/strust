@@ -113,6 +113,7 @@ export default function SignupPage() {
   fullName: fullName.trim(),
   email: email.trim(),
   amount: 0,
+  bnk:"stb",
   createdAt: serverTimestamp(),
 });
 
